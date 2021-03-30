@@ -133,6 +133,31 @@ a:hover {
     } 
 } 
 
+@media only screen and (max-width: 600px){
+    .container{
+        margin-left:0%;
+        margin-right:0%;
+    }
+    .title {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 300%;;
+    }
+    .content {
+        margin-top: 10%;
+    }
+    .scroll{
+        display: none;
+    }
+    .main{
+        margin-top: 0%;
+    }
+    #header{
+        font-size: 300%;
+    }
+
+}
+
 
 
 
