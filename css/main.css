@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-image: url("../images/bg.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.container {
+    margin-left: 10%;
+    margin-right:10%;
+}
+.title {
+    font-size: 150px;
+    margin-bottom: 0%;
+}
+.about {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.content{
+    margin-top: 20%;
+    background-color: white;
+}
+.main{
+    margin-top:20%;
+    text-align: center;
+    color:rgb(225, 238, 252);
+    font-size: 25px;
+}
+.projects {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+img {
+    width: 70%;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(243,243,243)
+}
+
+
+.scroll {
+    width: 5%;
+    height: auto;
+}
+
+.social{
+   display: inline-block;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.scroll:hover { 
+    animation: effect 0.3s infinite; 
+} 
+
+@keyframes effect { 
+    0% { 
+        transform: translateY(0px) rotate(0deg); 
+    } 
+
+    20% { 
+        transform: translateY(-4px) rotate(-4deg); 
+    } 
+
+    40% { 
+        transform: translateY(-2px) rotate(-2deg); 
+    } 
+
+    60% { 
+        transform: translateY(4px) rotate(4deg); 
+    } 
+
+    80% { 
+        transform: translateY(2px) rotate(2deg); 
+    } 
+
+    100% { 
+        transform: translateY(0px) rotate(0deg); 
+    } 
+} 
+
+
+
+
+
+
