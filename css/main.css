@@ -53,7 +53,6 @@ html, body {
 p {
     font-size: 150%;
 }
-
 .main{
     margin-top:20%;
     text-align: center;
@@ -72,17 +71,13 @@ img {
 .proj-img {
     border: 2px solid rgb(243, 243, 243);
 }
-
 footer {
     background-color: rgb(243,243,243)
 }
-
-
 .scroll {
     width: 5%;
     height: auto;
 }
-
 hr {
     height: 2px;
     background-color: rgb(226, 226, 226);
@@ -150,7 +145,7 @@ a:hover {
         display: none;
     }
     .main{
-        margin-top: 0%;
+        margin-top: -15%;
     }
     #header{
         font-size: 300%;
