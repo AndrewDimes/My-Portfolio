@@ -67,6 +67,8 @@ p {
 }
 .proj-link{
     font-size: 140%;
+    margin-right: 5%;
+
 }
 img {
     width: 90%;
@@ -174,9 +176,17 @@ a:hover {
         font-size: 300%;
     }
     .about, .projects{
-        margin-left: 0%;
-        margin-right:0%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
+    .proj-link{
+        margin-right: 10%;
+
+    }
+    .social{
+        font-size: 75%;
+    }
+    
 
 }
 
