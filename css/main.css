@@ -5,7 +5,8 @@ html, body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background-image: url("../images/bg.jpg");
+    background: linear-gradient(90deg, rgba(182,182,182,1) 10%, rgba(0,179,255,1) 50%, rgba(182,182,182,1) 90%);
+
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -37,9 +38,6 @@ html, body {
 .project{
     font-size: 250%;
 }
-.sub-title {
-    font-family: 'Lato', sans-serif;
-}
 .about {
     margin-bottom: 10%;
     text-align: center;
@@ -47,7 +45,7 @@ html, body {
     margin-left: 20%;
 }
 .content{
-    margin-top: 60%;
+    margin-top: 20%;
     background-color: white;
     border: double 2px rgb(226, 226, 226);
 }
@@ -55,9 +53,9 @@ p {
     font-size: 150%;
 }
 .main{
+    color: ghostwhite;
     margin-top:20%;
     text-align: center;
-    color:rgb(255, 255, 255);
     font-size: 25px;
 }
 .projects {
