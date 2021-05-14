@@ -7,9 +7,8 @@
     <title>Andrew Dimes | Software Engineer</title>
     <meta name="description" content="Portfolio created using vanilla HTML & CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Gruppo&family=Lato:ital,wght@1,300&family=Teko:wght@300&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
 
@@ -57,16 +56,21 @@
             <h2 id="header">Recent Projects</h2>
             <div class="projects">
                 <section>
-
+                    <hr>
                     <article>
                         <h3 class="project">OverStats</h3>
                         <div class="effect">
                         <a href="https://myoverstats.herokuapp.com/" target="_blank"><img class="proj-img"
                                 src="images/home.png" alt="" /></a>
                                 </div>
-                        <p> OverStats is an application that helps Overwatch players view their in-game statistics. Utilized a third-party API and developed a backend that made API calls to the Overwatch API, sorted the data, and stored it in a MongoDB database. 
-                            Generated graphs and charts for data visualization using CanvasJS and React to display player win rates, kill/death ratios, and other data. 
-                            Built with MongoDB, Express, React, and Node.js.
+                        <p class="desc">OverStats is an application that helps Overwatch players view their in-game statistics.
+                            	It utilizes a third-party API and developed a backend that made API calls to the Overwatch API, sorted the data, and stored it in a MongoDB database.
+                            	Generates graphs and charts for data visualization using CanvasJS and React to display player win rates, kill/death ratios, and other player data.
+                            	Capable of cross platform searches. Users gain access to information of all players on PC, Xbox Live, PlayStation Network, and Nintendo Switch.
+                            	Implemented JWT for authentication.
+                            	Built with MongoDB, Express, React, and Node.js, and deployed to Heroku.
+                            
+                            
                             </p>
                         <ul class="actions special">
                             <a class="proj-link" href="https://github.com/AndrewDimes/OverStats"
@@ -75,19 +79,21 @@
                                 Site</a>
                         </ul>
                     </article>
+                    <hr>
                     <article>
                         <h3 class="project">Fanime</h3>
                         <div class="effect">
                         <a href="https://fanimeh.herokuapp.com/" target="_blank"><img class="proj-img"
                                 src="images/fanimess.png" alt="" /></a>
                                 </div>
-                        <p>Fanime utilizes Kitsu, a third party API which houses a vast library 
-                            of over 11,000 anime. Users can filter their genre 
-                            of choice at the top of the Anime Library page. Also, by clicking the RANDOM ANIME button in the 
-                            navigation menu, Fanime will randomly generate a title from Kitsu’s library where you can read the 
-                            show’s synopsis. Every click returns a new anime that you can favorite or skip on to the next one. 
-                            Favoriting an anime will give you access to it in your profiles favorite list. 
-                            Fanime was built using Python/Django, PostgreSQL, HTML, CSS and Materialize. </p>
+                        <p class="desc" >A web application that lets users browse a database of over 10,000 anime titles.
+                                Worked with a team of two other developers remotely, using GitHub to create this app.
+                                Utilized a third-party API called Kitsu to build our database.
+                            	Developed the backend that made API calls to the Kitsu API and stored the data in a PostgreSQL database.
+                            	In order for users to be able to favorite anime and add it to their profile page, I developed an algorithm that stores the anime details once an anime has been viewed. This way, our database grows the more the site is explored.
+                            	Developed a fully responsive design with authentication.
+                            	Built with Django, Python, PostgreSQL, Materialize, and deployed to Heroku.
+                             </p>
                         <ul class="actions special">
                             <a class="proj-link" href="https://github.com/AndrewDimes/Fanime"
                                 target="_blank">GitHub Repo</a><br>
@@ -95,18 +101,20 @@
                                 Site</a>
                         </ul>
                     </article>
-
-
+                    <hr>
                     <article>
                         <h3 class="project">The Local Bar & Grill</h3>
                         <div class="effect">
                         <a href="https://localbarorlando.herokuapp.com/" target="_blank"><img class="proj-img"
                                 src="images/ss2.png" alt="" /></a>
                                 </div>
-                        <p>This is a web application designed around the clients needs. I designed a custom website and
-                            implemented an online ordering system with a functional checkout system and used Oauth for
-                            login. I also implemented a review page to view and post reviews for the client. I built
-                            this with MongoDB/Mongoose, Express.js, and Node.js</p>
+                        <p class="desc">A restaurant web application with a design influenced by my current employer.
+                            	Developed a cart system to allow logged in customers to shop the menu and order online.
+                            	Created a review page for logged in customers to write reviews.
+                            	Designed the main page to show case specials and events.
+                            	Oauth capabilities to allow users to sign in via google.
+                            	Built with MongoDB, Express, Node.js, Materialize, and deployed to Heroku.
+                            </p>
                         <ul class="actions special">
                             <a class="proj-link" href="https://github.com/AndrewDimes/Project-Two"
                                 target="_blank">GitHub Repo</a><br>
@@ -114,8 +122,31 @@
                                 Site</a>
                         </ul>
                     </article>
-
-
+                    <hr>
+                    <article>
+                        <h3 class="project">My Maintenance</h3>
+                        <div class="effect">
+                        <a href="https://mymaintenance.herokuapp.com/" target="_blank"><img class="proj-img"
+                                src="images/mainten.png" alt="" /></a>
+                                </div>
+                        <p class="desc">
+                            My Maintenance is an app to help apartments keep track of repairs needed by residents. Residents can sign up,
+                            create a profile, and create work orders. When creating work orders residents can
+                            upload pictures to better provide information to the maintenance team. 
+                            Once a work order is created a member of the maintenance team can accept the 
+                            work order changing its status from submitted to open. Upon completion of the 
+                            work order it will then be changed to complete alerting the resident. Maintenance 
+                            can also comment on work orders to give status updates to the residents.
+                            Built with Django, Python, PostgreSQL, Materialize, and deployed to Heroku.
+                            </p>
+                        <ul class="actions special">
+                            <a class="proj-link" href="https://github.com/AndrewDimes/my-maintenance"
+                                target="_blank">GitHub Repo</a><br>
+                            <a class="proj-link" href="https://mymaintenance.herokuapp.com/" target="_blank">Deployed
+                                Site</a>
+                        </ul>
+                    </article>
+                    <hr>
                     <article>
                         <header>
                             <h3 class="project"> Checkers</h3>
@@ -124,7 +155,7 @@
                         <a href="https://andrewdimes.github.io/Checkers/" target="_blank"><img class="proj-img"
                                 src="images/checkers.png" alt="" /></a>
                             </div>
-                        <p>This is a fun game of checkers I built using HTML, CSS, and Javascript. This project helped
+                        <p class="desc" >This is a fun game of checkers I built using HTML, CSS, and Javascript. This project helped
                             me strengthen my knowledge of the fundamentals.</p>
                         <ul>
                             <a class="proj-link" href="https://github.com/AndrewDimes/Checkers" target="_blank">GitHub
@@ -133,6 +164,7 @@
                                 Site</a>
                         </ul>
                     </article>
+                    <hr>
                 </section>
             </div><br>
 

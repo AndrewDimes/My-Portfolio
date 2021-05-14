@@ -5,69 +5,169 @@ html, body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background: linear-gradient(90deg, rgba(182,182,182,1) 10%, rgba(0,179,255,1) 50%, rgba(182,182,182,1) 90%);
-
+    background-image: url("/images/bg6.png");
+    /* background: linear-gradient(90deg, rgba(182,182,182,1) 10%, rgba(0,179,255,1) 50%, rgba(182,182,182,1) 90%); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;   
     background-blend-mode: color-burn;
     scroll-behavior: smooth;
-    font-family: 'Gruppo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    
     
 }
 
 .container {
     margin-left: 10%;
     margin-right:10%;
-    
 }
+
 #header{
     text-align: center;
     font-size: 700%;
     margin-bottom: 2%;
-}
-.head {
-    font-size: 600%;
+    font-family: 'Gruppo', cursive;
 
 }
+
+.head {
+    font-size: 600%;
+}
+
 .title {
     font-size: 600%;
     margin-bottom: 0%;
 }
+
+@media only screen and (max-width: 1256px){
+    .title{
+        font-size: 500%;
+    }
+    .sub-title{
+        font-size: 125%;
+    }
+}
+
+@media only screen and (max-width: 1046px){
+    .title{
+        font-size: 400%;
+    }
+    .sub-title{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 841px){
+    .title{
+        font-size: 300%;
+    }
+    .sub-title{
+        font-size: 75%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .title{
+        font-size: 250%;
+    }
+    .sub-title{
+        font-size: 60%;
+    }
+}
+
 .project{
     font-size: 250%;
+    font-family: 'Gruppo', cursive;
+
 }
+
 .about {
     margin-bottom: 10%;
     text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
+
 .content{
     margin-top: 20%;
     background-color: white;
     border: double 2px rgb(226, 226, 226);
 }
+
+@media only screen and (max-width: 1608px){
+    .content{
+        margin-top:28%
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .content{
+        margin-top:35%
+    }
+}
+
+@media only screen and (max-width: 1256px){
+    .content{
+        margin-top:42%
+    }
+}
+@media only screen and (max-width: 1167px){
+    .content{
+        margin-top:50%
+    }
+}
+@media only screen and (max-width: 1045px){
+    .content{
+        margin-top:60%
+    }
+}
+@media only screen and (max-width: 1001px){
+    .content{
+        margin-top:70%
+    }
+}
+
+@media only screen and (max-width: 890px){
+    .content{
+        margin-top:90%
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .content{
+        margin-top:100%
+    }
+}
+@media only screen and (max-width: 736px){
+    .content{
+        margin-top:150%;
+    }
+}
+
 p {
     font-size: 150%;
 }
+
 .main{
+    font-family: 'Gruppo', cursive;
     color: ghostwhite;
-    margin-top:20%;
+    margin-top:15%;
     text-align: center;
     font-size: 25px;
 }
+
 .projects {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .proj-link{
     font-size: 140%;
     margin-right: 5%;
 
 }
+
 img {
     width: 90%;
     height: auto;
@@ -78,33 +178,40 @@ img {
     background-color: rgb(243,243,243);
     width:100%;
 }
+
 .effect{
     width:80%;
     height:auto;
     overflow:hidden;
     margin: 0 auto;
 }
+
 .effect img {
     border: 2px solid rgb(243, 243, 243);
     width: 75%;
     height: auto;
     transition: 0.5s all ease-in-out;
 }
+
 .effect:hover img{
     transform: scale(1.1);
 }
+
 footer {
     background-color: rgb(243,243,243)
 }
+
 .scroll {
     width: 5%;
     height: auto;
 }
+
 hr {
     height: 2px;
     background-color: rgb(226, 226, 226);
     border:none;
 }
+
 .social{
    display: inline-block;
    padding-left: 5%;
@@ -118,9 +225,11 @@ a {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 .scroll:hover { 
     animation: effect 0.3s infinite; 
 } 
@@ -159,7 +268,7 @@ a:hover {
     .title {
         margin-left: 10%;
         margin-right: 10%;
-        font-size: 300%;;
+        font-size: 100%;;
     }
     .content {
         margin-top: 10%;
@@ -171,11 +280,20 @@ a:hover {
         margin-top: -15%;
     }
     #header{
-        font-size: 300%;
+        font-size: 250%;
+    }
+    .project{
+        font-size: 200%;
     }
     .about, .projects{
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .about{
+        font-size: 70%;
+    }
+    .desc{
+        font-size: 100%;
     }
     .proj-link{
         margin-right: 10%;
