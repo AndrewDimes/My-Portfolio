@@ -214,8 +214,8 @@ hr {
 
 .social{
    display: inline-block;
-   padding-left: 5%;
-   padding-right: 5%;
+   padding-left: 4%;
+   padding-right: 4%;
    margin-left: 5%;
    margin-right: 5%;
    font-size: 140%;
@@ -259,6 +259,7 @@ a:hover {
         transform: translateY(0px) rotate(0deg); 
     } 
 } 
+
 
 @media only screen and (max-width: 600px){
     .container{

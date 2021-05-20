@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Andrew Dimes | Software Engineer</title>
-    <meta name="description" content="Portfolio created using vanilla HTML & CSS">
+    <meta name="description" content="Portfolio created using vanilla HTML, CSS, & JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <link href="css/scroll.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
 
     
@@ -19,7 +20,7 @@
 
 <body class="container">
     <div class="main">
-        <div>
+        <div class="inline-photo show-on-scroll">
             <br><br>
             <br>
             <h1 class="title">Andrew Dimes</h1>
@@ -29,9 +30,10 @@
 
     </div>
     <div class="content">
+
         <div>
             <br>
-            <header>
+            <header class="inline-photo show-on-scroll">
                 <h1 id="header">About Me</h1><br>
                 <div class="about">
                     <p>I'm a resourceful and detail-driven developer with excellent communication skills and a strong foundation in collaborative environments. I have an extensive background in customer service and management with over 8 years’ experience in high volume restaurants. I am highly adaptable and capable of working under pressure.<br></p>
@@ -57,7 +59,7 @@
             <div class="projects">
                 <section>
                     <hr>
-                    <article>
+                    <article class="inline-photo show-on-scroll">
                         <h3 class="project">OverStats</h3>
                         <div class="effect">
                         <a href="https://myoverstats.herokuapp.com/" target="_blank"><img class="proj-img"
@@ -80,7 +82,7 @@
                         </ul>
                     </article>
                     <hr>
-                    <article>
+                    <article class="inline-photo show-on-scroll">
                         <h3 class="project">Fanime</h3>
                         <div class="effect">
                         <a href="https://fanimeh.herokuapp.com/" target="_blank"><img class="proj-img"
@@ -102,7 +104,7 @@
                         </ul>
                     </article>
                     <hr>
-                    <article>
+                    <article class="inline-photo show-on-scroll">
                         <h3 class="project">The Local Bar & Grill</h3>
                         <div class="effect">
                         <a href="https://localbarorlando.herokuapp.com/" target="_blank"><img class="proj-img"
@@ -123,7 +125,7 @@
                         </ul>
                     </article>
                     <hr>
-                    <article>
+                    <article class="inline-photo show-on-scroll">
                         <h3 class="project">My Maintenance</h3>
                         <div class="effect">
                         <a href="https://mymaintenance.herokuapp.com/" target="_blank"><img class="proj-img"
@@ -147,7 +149,7 @@
                         </ul>
                     </article>
                     <hr>
-                    <article>
+                    <article class="inline-photo show-on-scroll">
                         <header>
                             <h3 class="project"> Checkers</h3>
                         </header>
@@ -193,6 +195,7 @@
             </footer>
         </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
