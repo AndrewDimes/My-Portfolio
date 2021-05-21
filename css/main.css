@@ -23,7 +23,7 @@ html, body {
     margin-right:10%;
 }
 
-#header{
+#header,#about-header{
     text-align: center;
     font-size: 700%;
     margin-bottom: 2%;
@@ -145,7 +145,7 @@ html, body {
 }
 
 p {
-    font-size: 150%;
+    font-size: 110%;
 }
 
 .main{
@@ -291,6 +291,10 @@ a:hover {
     }
     #header{
         font-size: 250%;
+
+    }
+    #about-header{
+        font-size: 250%;
         margin-bottom: -3%;
         margin-top: 0%;
     }
@@ -302,7 +306,7 @@ a:hover {
         margin-right: 5%;
     }
     .about{
-        font-size: 50%;
+        font-size: 70%;
     }
     .desc{
         font-size: 70%;
