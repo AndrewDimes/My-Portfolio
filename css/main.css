@@ -283,6 +283,7 @@ a:hover {
     .main{
         margin-top: 0%;
         background-image: url("/images/bg1.png");
+        background-size: cover;
         
     }
     #header{
