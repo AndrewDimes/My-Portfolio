@@ -271,14 +271,19 @@ a:hover {
         margin-right: 10%;
         font-size: 100%;;
     }
+    .sub-title{
+        margin-bottom: -2%;
+    }
     .content {
-        margin-top: 20%;
+        margin-top: 0%;
     }
     .scroll{
         display: none;
     }
     .main{
-        margin-top: -10%;
+        margin-top: 0%;
+        background-image: url("/images/bg1.png");
+        
     }
     #header{
         font-size: 250%;
