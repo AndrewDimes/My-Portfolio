@@ -5,7 +5,7 @@ html, body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background-image: url("/images/bg6.png");
+    background-image: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif");
     /* background: linear-gradient(90deg, rgba(182,182,182,1) 10%, rgba(0,179,255,1) 50%, rgba(182,182,182,1) 90%); */
     background-size: cover;
     background-attachment: fixed;
@@ -30,6 +30,10 @@ html, body {
     font-family: 'Gruppo', cursive;
 
 }
+#about-header{
+    margin-top: 5%;
+}
+
 
 .head {
     font-size: 600%;
@@ -202,7 +206,7 @@ footer {
 }
 
 .scroll {
-    width: 5%;
+    width: 6%;
     height: auto;
 }
 
@@ -219,6 +223,14 @@ hr {
    margin-left: 5%;
    margin-right: 5%;
    font-size: 140%;
+}
+
+.logos {
+    width:12%; 
+    height: auto; 
+    opacity: 0.7;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 a {
@@ -319,6 +331,10 @@ a:hover {
     .social{
         font-size: 75%;
     }
+    #gh{
+        width:50%;
+    }
+
     
 
 }
