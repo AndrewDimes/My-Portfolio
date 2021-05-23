@@ -297,7 +297,7 @@ a:hover {
     }
     .main{
         margin-top: 0%;
-        background-image: url("/images/bg1.png");
+        background-image: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif");
         background-size: cover;
         
     }
@@ -308,7 +308,7 @@ a:hover {
     #about-header{
         font-size: 250%;
         margin-bottom: -3%;
-        margin-top: 0%;
+        margin-top: 5%;
     }
     .project{
         font-size: 200%;
