@@ -51,8 +51,8 @@ html, body {
     white-space: nowrap; 
     margin: 0 auto; 
     animation: 
-      typing 4s steps(40, end),
-      blink-caret .75s step-end infinite;
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end 2s;
   }
   @keyframes typing {
     from { width: 0 }
@@ -67,7 +67,7 @@ html, body {
     white-space: nowrap; 
     margin: 0 auto; 
     animation: 
-      typing-two 4s steps(40, end) 3.5s both,
+      typing-two 5.5s steps(40, end) 3.5s both,
       blink-caret-two .75s step-end infinite;
   }
   
@@ -312,6 +312,16 @@ a:hover {
 } 
 
 input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=email], select, textarea {
     width: 100%; 
     padding: 12px; 
     border: 1px solid #ccc; 
