@@ -23,7 +23,7 @@ html, body {
     margin-right:10%;
 }
 
-#header,#about-header{
+#header,#about-header, #contact-header{
     text-align: center;
     font-size: 700%;
     margin-bottom: 2%;
@@ -32,6 +32,9 @@ html, body {
 }
 #about-header{
     margin-top: 5%;
+}
+#contact-header{
+    margin-top: 0%;
 }
 
 
@@ -43,6 +46,42 @@ html, body {
     font-size: 600%;
     margin-bottom: 0%;
 }
+.title {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+  }
+  .sub-title {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+      typing-two 4s steps(40, end) 3.5s both,
+      blink-caret-two .75s step-end infinite;
+  }
+  
+
+  @keyframes typing-two {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret-two {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+  }
 
 @media only screen and (max-width: 1256px){
     .title{
@@ -272,15 +311,42 @@ a:hover {
     } 
 } 
 
-
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: rgb(233, 93, 112);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  input[type=submit]:hover {
+    background-color: rgb(155,51 ,100 );
+  }
+  #contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
 @media only screen and (max-width: 600px){
     .container{
         margin-left:0%;
         margin-right:0%;
     }
     .title {
-        margin-left: 10%;
-        margin-right: 10%;
         margin-top: 0%;
         margin-bottom: 2%;
         font-size: 100%;;
@@ -299,9 +365,10 @@ a:hover {
         margin-top: 0%;
         background-image: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif");
         background-size: cover;
+        height: 200%;
         
     }
-    #header{
+    #header, #contact-header{
         font-size: 250%;
 
     }

@@ -22,12 +22,14 @@
 </head>
 
 <body class="container">
+
     <div class="main">
         <div class="inline-photo show-on-scroll">
             <br><br>
             <br>
+
             <h1 class="title">Andrew Dimes</h1>
-            <p class="sub-title">Software Engineer | Web Developer</p>
+            <p class="sub-title">Software Engineer | Web Developer</p><br>
             <a href="#about-header"><img class="scroll" src="/images/scroll.png" alt=""></a>
             <br>
         </div>
@@ -174,8 +176,26 @@
                     <hr>
                 </section>
             </div><br>
+            
+            <div id="contact-form" class="inline-contact show-on-scroll">
+                <h2  id="contact-header">Contact</h2>
+                <form   action="https://formspree.io/f/moqydaqy" method="POST">
+                  <label for="fname">Name</label>
+                  <input type="text" id="fname" name="name" placeholder="Name">
+              
+                  <label for="lname">Email</label>
+                  <input type="text" id="lname" name="_replyto" placeholder="Email">
+              
+                  <label for="lname">Subject</label>
+                  <input type="text" id="lname" name="subject" placeholder="Subject">
 
-
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="message" placeholder="Message" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+              
             <footer id="contact">
                 <section class="inline-photo show-on-scroll">
                     <section class="footer">
