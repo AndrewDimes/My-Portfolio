@@ -7,44 +7,38 @@
     <title>Andrew Dimes | Software Engineer</title>
     <meta name="description" content="Portfolio created using vanilla HTML, CSS, & JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property='og:title' content='Andrew Dimes'/>
+    <meta property='og:title' content='Andrew Dimes' />
     <meta name="image" property="og:image" content="https://www.andrewdimes.com/images/homepage.png">
-    <meta property='og:description' content='Portfolio created using vanilla HTML, CSS, & JavaScript'/>
+    <meta property='og:description' content='Portfolio created using vanilla HTML, CSS, & JavaScript' />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <link href="css/scroll.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
-
-    
-
-
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body class="container">
+    <div class="nav">
 
+    </div>
     <div class="main">
         <div class="inline-photo show-on-scroll">
             <br><br>
             <br>
-
             <h1 class="title">Andrew Dimes</h1>
             <p class="sub-title">Software Engineer | Web Developer</p><br>
             <a href="#about-header"><img class="scroll" src="/images/scroll.png" alt=""></a>
             <br>
         </div>
-
     </div>
     <div class="content">
-
         <div>
-            
             <header class="inline-photo show-on-scroll">
                 <h1 id="about-header">About Me</h1><br>
                 <div class="about">
-                    <p>I'm a resourceful and detail-driven developer with excellent communication skills and a strong 
-                        foundation in collaborative environments. I have an extensive background in customer service and 
-                        management with over 8 years’ experience in high volume restaurants. I am highly adaptable and 
+                    <p>I'm a resourceful and detail-driven developer with excellent communication skills and a strong
+                        foundation in collaborative environments. I have an extensive background in customer service and
+                        management with over 8 years’ experience in high volume restaurants. I am highly adaptable and
                         capable of working under pressure.<br></p><br><br>
                     <hr>
                     <p>Javascript | Python | HTML | CSS <br>
@@ -53,16 +47,15 @@
                     <p>MongoDB | Express.js | React.js | Node.js <br>
                         <hr>
                     </p>
-                    <p>  Django | PostgresSQL | Materialize | Bootstrap
+                    <p> Django | PostgresSQL | Materialize | Bootstrap
                         <hr>
                     </p>
-                  <br>
-                        <div class="resume"><a href="/static/resumepdf2.pdf" target="_blank"><h1>My Resume</h1></a></div>
-                   
+                    <br>
+                    <div class="resume"><a href="/static/resumepdf2.pdf" target="_blank">
+                            <h1>My Resume</h1>
+                        </a></div>
                 </div>
             </header>
-
-
             <h2 class="inline-photo show-on-scroll" id="header">Recent Projects</h2>
             <div class="projects">
                 <section>
@@ -70,42 +63,48 @@
                     <article class="inline-project show-on-scroll">
                         <h3 class="project">OverStats</h3>
                         <div class="effect">
-                        <a href="https://myoverstats.herokuapp.com/" target="_blank"><img class="proj-img"
-                                src="images/ow1.gif" alt="" /></a>
-                                </div>
-                        <p class="desc">OverStats is an application that helps Overwatch players view their in-game statistics.
-                            	It utilizes a third-party API and developed a backend that made API calls to the Overwatch API, sorted the data, and stored it in a MongoDB database.
-                            	Generates graphs and charts for data visualization using CanvasJS and React to display player win rates, kill/death ratios, and other player data.
-                            	Capable of cross platform searches. Users gain access to information of all players on PC, Xbox Live, PlayStation Network, and Nintendo Switch.
-                            	Implemented JWT for authentication.
-                            	Built with MongoDB, Express, React, and Node.js, and deployed to Heroku.
-                            
-                            
-                            </p>
+                            <a href="https://myoverstats.herokuapp.com/" target="_blank"><img class="proj-img"
+                                    src="images/ow1.gif" alt="" /></a>
+                        </div>
+                        <p class="desc">OverStats is an application that helps Overwatch players view their in-game
+                            statistics.
+                            It utilizes a third-party API and developed a backend that made API calls to the Overwatch
+                            API, sorted the data, and stored it in a MongoDB database.
+                            Generates graphs and charts for data visualization using CanvasJS and React to display
+                            player win rates, kill/death ratios, and other player data.
+                            Capable of cross platform searches. Users gain access to information of all players on PC,
+                            Xbox Live, PlayStation Network, and Nintendo Switch.
+                            Implemented JWT for authentication.
+                            Built with MongoDB, Express, React, and Node.js, and deployed to Heroku.
+                        </p>
                         <ul class="actions special">
-                            <a class="proj-link" href="https://github.com/AndrewDimes/OverStats"
-                                target="_blank">GitHub Repo</a><br>
-                            <a class="proj-link" href="https://myoverstats.herokuapp.com/" target="_blank">Deployed Site</a>
+                            <a class="proj-link" href="https://github.com/AndrewDimes/OverStats" target="_blank">GitHub
+                                Repo</a><br>
+                            <a class="proj-link" href="https://myoverstats.herokuapp.com/" target="_blank">Deployed
+                                Site</a>
                         </ul>
                     </article>
                     <hr>
                     <article class="inline-project show-on-scroll">
                         <h3 class="project">Fanime</h3>
                         <div class="effect">
-                        <a href="https://fanimeh.herokuapp.com/" target="_blank"><img class="proj-img"
-                                src="images/fanime1.gif" alt="" /></a>
-                                </div>
-                        <p class="desc" >A web application that lets users browse a database of over 10,000 anime titles.
-                                Worked with a team of two other developers remotely, using GitHub to create this app.
-                                Utilized a third-party API called Kitsu to build our database.
-                            	Developed the backend that made API calls to the Kitsu API and stored the data in a PostgreSQL database.
-                            	In order for users to be able to favorite anime and add it to their profile page, I developed an algorithm that stores the anime details once an anime has been viewed. This way, our database grows the more the site is explored.
-                            	Developed a fully responsive design with authentication.
-                            	Built with Django, Python, PostgreSQL, Materialize, and deployed to Heroku.
-                             </p>
+                            <a href="https://fanimeh.herokuapp.com/" target="_blank"><img class="proj-img"
+                                    src="images/fanime1.gif" alt="" /></a>
+                        </div>
+                        <p class="desc">A web application that lets users browse a database of over 10,000 anime titles.
+                            Worked with a team of two other developers remotely, using GitHub to create this app.
+                            Utilized a third-party API called Kitsu to build our database.
+                            Developed the backend that made API calls to the Kitsu API and stored the data in a
+                            PostgreSQL database.
+                            In order for users to be able to favorite anime and add it to their profile page, I
+                            developed an algorithm that stores the anime details once an anime has been viewed. This
+                            way, our database grows the more the site is explored.
+                            Developed a fully responsive design with authentication.
+                            Built with Django, Python, PostgreSQL, Materialize, and deployed to Heroku.
+                        </p>
                         <ul class="actions special">
-                            <a class="proj-link" href="https://github.com/AndrewDimes/Fanime"
-                                target="_blank">GitHub Repo</a><br>
+                            <a class="proj-link" href="https://github.com/AndrewDimes/Fanime" target="_blank">GitHub
+                                Repo</a><br>
                             <a class="proj-link" href="https://fanimeh.herokuapp.com/" target="_blank">Deployed
                                 Site</a>
                         </ul>
@@ -114,16 +113,16 @@
                     <article class="inline-project show-on-scroll">
                         <h3 class="project">The Local Bar & Grill</h3>
                         <div class="effect">
-                        <a href="https://localbarorlando.herokuapp.com/" target="_blank"><img class="proj-img"
-                                src="images/local1.gif" alt="" /></a>
-                                </div>
+                            <a href="https://localbarorlando.herokuapp.com/" target="_blank"><img class="proj-img"
+                                    src="images/local1.gif" alt="" /></a>
+                        </div>
                         <p class="desc">A restaurant web application with a design influenced by my current employer.
-                            	Developed a cart system to allow logged in customers to shop the menu and order online.
-                            	Created a review page for logged in customers to write reviews.
-                            	Designed the main page to show case specials and events.
-                            	Oauth capabilities to allow users to sign in via google.
-                            	Built with MongoDB, Express, Node.js, Materialize, and deployed to Heroku.
-                            </p>
+                            Developed a cart system to allow logged in customers to shop the menu and order online.
+                            Created a review page for logged in customers to write reviews.
+                            Designed the main page to show case specials and events.
+                            Oauth capabilities to allow users to sign in via google.
+                            Built with MongoDB, Express, Node.js, Materialize, and deployed to Heroku.
+                        </p>
                         <ul class="actions special">
                             <a class="proj-link" href="https://github.com/AndrewDimes/Project-Two"
                                 target="_blank">GitHub Repo</a><br>
@@ -135,19 +134,20 @@
                     <article class="inline-project show-on-scroll">
                         <h3 class="project">My Maintenance</h3>
                         <div class="effect">
-                        <a href="https://mymaintenance.herokuapp.com/" target="_blank"><img class="proj-img"
-                                src="images/maintenance1.gif" alt="" /></a>
-                                </div>
+                            <a href="https://mymaintenance.herokuapp.com/" target="_blank"><img class="proj-img"
+                                    src="images/maintenance1.gif" alt="" /></a>
+                        </div>
                         <p class="desc">
-                            My Maintenance is an app to help apartments keep track of repairs needed by residents. Residents can sign up,
+                            My Maintenance is an app to help apartments keep track of repairs needed by residents.
+                            Residents can sign up,
                             create a profile, and create work orders. When creating work orders residents can
-                            upload pictures to better provide information to the maintenance team. 
-                            Once a work order is created a member of the maintenance team can accept the 
-                            work order changing its status from submitted to open. Upon completion of the 
-                            work order it will then be changed to complete alerting the resident. Maintenance 
+                            upload pictures to better provide information to the maintenance team.
+                            Once a work order is created a member of the maintenance team can accept the
+                            work order changing its status from submitted to open. Upon completion of the
+                            work order it will then be changed to complete alerting the resident. Maintenance
                             can also comment on work orders to give status updates to the residents.
                             Built with Django, Python, PostgreSQL, Materialize, and deployed to Heroku.
-                            </p>
+                        </p>
                         <ul class="actions special">
                             <a class="proj-link" href="https://github.com/AndrewDimes/my-maintenance"
                                 target="_blank">GitHub Repo</a><br>
@@ -161,10 +161,11 @@
                             <h3 class="project"> Checkers</h3>
                         </header>
                         <div class="effect">
-                        <a href="https://andrewdimes.github.io/Checkers/" target="_blank"><img class="proj-img"
-                                src="images/checkers1.gif" alt="" /></a>
-                            </div>
-                        <p class="desc" >This is a fun game of checkers I built using HTML, CSS, and Javascript. This project helped
+                            <a href="https://andrewdimes.github.io/Checkers/" target="_blank"><img class="proj-img"
+                                    src="images/checkers1.gif" alt="" /></a>
+                        </div>
+                        <p class="desc">This is a fun game of checkers I built using HTML, CSS, and Javascript. This
+                            project helped
                             me strengthen my knowledge of the fundamentals.</p>
                         <ul>
                             <a class="proj-link" href="https://github.com/AndrewDimes/Checkers" target="_blank">GitHub
@@ -176,26 +177,21 @@
                     <hr>
                 </section>
             </div><br>
-            
             <div id="contact-form" class="inline-contact show-on-scroll">
-                <h2  id="contact-header">Contact</h2>
-                <form   action="https://formspree.io/f/moqydaqy" method="POST">
-                  <label for="fname">Name</label>
-                  <input type="text" id="fname" name="name" placeholder="Name" required>
-              
-                  <label for="lname">Email</label>
-                  <input type="email" id="lname" name="_replyto" placeholder="Email" required>
-              
-                  <label for="lname">Subject</label>
-                  <input type="text" id="lname" name="subject" placeholder="Subject" required>
-
-                  <label for="subject">Message</label>
-                  <textarea id="subject" name="message" placeholder="Message" style="height:200px" required></textarea>
-              
-                  <input type="submit" value="Submit">
+                <h2 id="contact-header">Contact</h2>
+                <form action="https://formspree.io/f/moqydaqy" method="POST">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="Name" required>
+                    <label for="lname">Email</label>
+                    <input type="email" id="lname" name="_replyto" placeholder="Email" required>
+                    <label for="lname">Subject</label>
+                    <input type="text" id="lname" name="subject" placeholder="Subject" required>
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="message" placeholder="Message" style="height:200px"
+                        required></textarea>
+                    <input type="submit" value="Submit">
                 </form>
-              </div>
-              
+            </div>
             <footer id="contact">
                 <section class="inline-photo show-on-scroll">
                     <section class="footer">
@@ -211,10 +207,11 @@
                     <section class="footer">
                         <h3 class="social">Social</h3>
                         <div id="gh" class="social">
-                            <a href="https://www.linkedin.com/in/andrewdimes/" target="_blank"><img class="logos" src="images/li.png" alt=""></a>
-                            <a href="https://github.com/AndrewDimes" target="_blank"><img class="logos" src="images/gh.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/andrewdimes/" target="_blank"><img class="logos"
+                                    src="images/li.png" alt=""></a>
+                            <a href="https://github.com/AndrewDimes" target="_blank"><img class="logos"
+                                    src="images/gh.png" alt=""></a>
                         </div>
-
                     </section>
                 </section>
             </footer>

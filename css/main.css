@@ -9,33 +9,31 @@ html, body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
     background-blend-mode: color-burn;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
-    
-    
 }
 
 .container {
     margin-left: 10%;
-    margin-right:10%;
+    margin-right: 10%;
 }
 
-#header,#about-header, #contact-header{
+#header, #about-header, #contact-header {
     text-align: center;
     font-size: 700%;
     margin-bottom: 2%;
     font-family: 'Gruppo', cursive;
-
 }
-#about-header{
+
+#about-header {
     margin-top: 5%;
 }
-#contact-header{
+
+#contact-header {
     margin-top: 0%;
 }
-
 
 .head {
     font-size: 600%;
@@ -44,81 +42,94 @@ html, body {
 .title {
     font-size: 600%;
     margin-bottom: 0%;
-    overflow: hidden; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end 2s;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0); }
-  }
-  .sub-title {
-    overflow: hidden; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    animation: 
-      typing-two 5.5s steps(40, end) 3.5s both,
-      blink-caret-two .75s step-end infinite;
-  }
-  
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end 2s;
+}
 
-  @keyframes typing-two {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
- 
-  @keyframes blink-caret-two {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0); }
-  }
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
 
-@media only screen and (max-width: 1256px){
-    .title{
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
+}
+
+.sub-title {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing-two 5.5s steps(40, end) 3.5s both, blink-caret-two .75s step-end infinite;
+}
+
+@keyframes typing-two {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret-two {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
+}
+
+@media only screen and (max-width: 1256px) {
+    .title {
         font-size: 500%;
     }
-    .sub-title{
+    .sub-title {
         font-size: 125%;
     }
 }
 
-@media only screen and (max-width: 1046px){
-    .title{
+@media only screen and (max-width: 1046px) {
+    .title {
         font-size: 400%;
     }
-    .sub-title{
+    .sub-title {
         font-size: 100%;
     }
 }
 
-@media only screen and (max-width: 841px){
-    .title{
+@media only screen and (max-width: 841px) {
+    .title {
         font-size: 300%;
     }
-    .sub-title{
+    .sub-title {
         font-size: 75%;
     }
 }
-@media only screen and (max-width: 650px){
-    .title{
+
+@media only screen and (max-width: 650px) {
+    .title {
         font-size: 250%;
     }
-    .sub-title{
+    .sub-title {
         font-size: 60%;
     }
 }
 
-.project{
+.project {
     font-size: 250%;
     font-family: 'Gruppo', cursive;
-
 }
 
 .about {
@@ -128,84 +139,93 @@ html, body {
     margin-left: 10%;
 }
 
-.content{
+.content {
     margin-top: 35%;
     background-color: white;
     border: double 2px rgb(226, 226, 226);
 }
 
-@media only screen and (max-width: 1608px){
-    .content{
-        margin-top:42%
-    }
-}
-@media only screen and (max-width: 1435px){
-    .content{
-        margin-top:45%
+@media only screen and (max-width: 1608px) {
+    .content {
+        margin-top: 42%
     }
 }
 
-@media only screen and (max-width: 1400px){
-    .content{
-        margin-top:48%
+@media only screen and (max-width: 1435px) {
+    .content {
+        margin-top: 45%
     }
 }
-@media only screen and (max-width: 1261px){
-    .content{
+
+@media only screen and (max-width: 1400px) {
+    .content {
+        margin-top: 48%
+    }
+}
+
+@media only screen and (max-width: 1261px) {
+    .content {
         margin-top: 52%
     }
 }
 
-@media only screen and (max-width: 1200px){
-    .content{
-        margin-top:55%
-    }
-}
-@media only screen and (max-width: 1167px){
-    .content{
-        margin-top:58%
-    }
-}
-@media only screen and (max-width: 1110px){
-    .content{
-        margin-top:62%
-    }
-}
-@media only screen and (max-width: 1060px){
-    .content{
-        margin-top:68%
-    }
-}
-@media only screen and (max-width: 1031px){
-    .content{
-        margin-top:70%
-    }
-}
-@media only screen and (max-width: 1001px){
-    .content{
-        margin-top:80%
+@media only screen and (max-width: 1200px) {
+    .content {
+        margin-top: 55%
     }
 }
 
-@media only screen and (max-width: 921px){
-    .content{
-        margin-top:95%
-    }
-}
-@media only screen and (max-width: 850px){
-    .content{
-        margin-top:105%
+@media only screen and (max-width: 1167px) {
+    .content {
+        margin-top: 58%
     }
 }
 
-@media only screen and (max-width: 800px){
-    .content{
-        margin-top:109%
+@media only screen and (max-width: 1110px) {
+    .content {
+        margin-top: 62%
     }
 }
-@media only screen and (max-width: 736px){
-    .content{
-        margin-top:150%;
+
+@media only screen and (max-width: 1060px) {
+    .content {
+        margin-top: 68%
+    }
+}
+
+@media only screen and (max-width: 1031px) {
+    .content {
+        margin-top: 70%
+    }
+}
+
+@media only screen and (max-width: 1001px) {
+    .content {
+        margin-top: 80%
+    }
+}
+
+@media only screen and (max-width: 921px) {
+    .content {
+        margin-top: 95%
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .content {
+        margin-top: 105%
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        margin-top: 109%
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .content {
+        margin-top: 150%;
     }
 }
 
@@ -213,10 +233,10 @@ p {
     font-size: 110%;
 }
 
-.main{
+.main {
     font-family: 'Gruppo', cursive;
     color: ghostwhite;
-    margin-top:15%;
+    margin-top: 15%;
     text-align: center;
     font-size: 25px;
 }
@@ -225,12 +245,12 @@ p {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
 }
 
-.proj-link{
+.proj-link {
     font-size: 140%;
     margin-right: 5%;
-
 }
 
 img {
@@ -238,16 +258,16 @@ img {
     height: auto;
 }
 
-.resume{
+.resume {
     text-align: center;
-    background-color: rgb(243,243,243);
-    width:100%;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
 }
 
-.effect{
-    width:80%;
-    height:auto;
-    overflow:hidden;
+.effect {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
     margin: 0 auto;
 }
 
@@ -258,12 +278,12 @@ img {
     transition: 0.5s all ease-in-out;
 }
 
-.effect:hover img{
+.effect:hover img {
     transform: scale(1.1);
 }
 
 footer {
-    background-color: rgb(243,243,243)
+    background-color: rgb(243, 243, 243)
 }
 
 .scroll {
@@ -274,21 +294,21 @@ footer {
 hr {
     height: 2px;
     background-color: rgb(226, 226, 226);
-    border:none;
+    border: none;
 }
 
-.social{
-   display: inline-block;
-   padding-left: 4%;
-   padding-right: 4%;
-   margin-left: 5%;
-   margin-right: 5%;
-   font-size: 140%;
+.social {
+    display: inline-block;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 140%;
 }
 
 .logos {
-    width:12%; 
-    height: auto; 
+    width: 12%;
+    height: auto;
     opacity: 0.7;
     margin-left: 2%;
     margin-right: 2%;
@@ -303,59 +323,54 @@ a:hover {
     text-decoration: underline;
 }
 
-.scroll:hover { 
-    animation: effect 0.3s infinite; 
-} 
+.scroll:hover {
+    animation: effect 0.3s infinite;
+}
 
-@keyframes effect { 
-    0% { 
-        transform: translateY(0px) rotate(0deg); 
-    } 
-
-    20% { 
-        transform: translateY(-4px) rotate(-4deg); 
-    } 
-
-    40% { 
-        transform: translateY(-2px) rotate(-2deg); 
-    } 
-
-    60% { 
-        transform: translateY(4px) rotate(4deg); 
-    } 
-
-    80% { 
-        transform: translateY(2px) rotate(2deg); 
-    } 
-
-    100% { 
-        transform: translateY(0px) rotate(0deg); 
-    } 
-} 
+@keyframes effect {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    20% {
+        transform: translateY(-4px) rotate(-4deg);
+    }
+    40% {
+        transform: translateY(-2px) rotate(-2deg);
+    }
+    60% {
+        transform: translateY(4px) rotate(4deg);
+    }
+    80% {
+        transform: translateY(2px) rotate(2deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
 
 input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  input[type=email], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
-  
-  input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
     background-color: rgb(233, 93, 112);
     color: white;
     padding: 12px 20px;
@@ -363,83 +378,75 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
-  }
-  input[type=submit]:hover {
-    background-color: rgb(155,51 ,100 );
-  }
-  #contact-form {
+}
+
+input[type=submit]:hover {
+    background-color: rgb(155, 51, 100);
+}
+
+#contact-form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    
-  }
-@media only screen and (max-width: 600px){
-    .container{
-        margin-left:0%;
-        margin-right:0%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .title {
         margin-top: 0%;
         margin-bottom: 2%;
-        font-size: 100%;;
+        font-size: 100%;
+        ;
     }
-    .sub-title{
+    .sub-title {
         margin-bottom: 10%;
         margin-top: 0%;
     }
     .content {
         margin-top: 0%;
     }
-    .scroll{
+    .scroll {
         display: none;
     }
-    .main{
+    .main {
         margin-top: 0%;
         background-image: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif");
         background-size: cover;
         height: 200%;
-        
     }
-    #header, #contact-header{
+    #header, #contact-header {
         font-size: 250%;
-
     }
-    #about-header{
+    #about-header {
         font-size: 250%;
         margin-bottom: -3%;
         margin-top: 5%;
     }
-    .project{
+    .project {
         font-size: 200%;
     }
-    .about, .projects{
+    .about, .projects {
         margin-left: 5%;
         margin-right: 5%;
     }
-    .about{
+    .about {
         font-size: 70%;
     }
-    .desc{
+    .desc {
         font-size: 70%;
     }
-    .proj-link{
+    .proj-link {
         margin-right: 10%;
         font-size: 90%;
-
     }
-    .social{
+    .social {
         font-size: 75%;
     }
-    #gh{
-        width:50%;
+    #gh {
+        width: 50%;
     }
-
-    
-
 }
-
-
-
-
-
-
