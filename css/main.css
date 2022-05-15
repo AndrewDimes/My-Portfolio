@@ -15,6 +15,10 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+
 .container {
     margin-left: 10%;
     margin-right: 10%;
@@ -45,7 +49,7 @@ html, body {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end 2s;
+    animation: typing 2.5s steps(40, end), blink-caret .75s step-end 2s;
 }
 
 @keyframes typing {
@@ -70,7 +74,7 @@ html, body {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing-two 5.5s steps(40, end) 3.5s both, blink-caret-two .75s step-end infinite;
+    animation: typing-two 3.5s steps(40, end) 1.5s both, blink-caret-two .75s step-end infinite;
 }
 
 @keyframes typing-two {
