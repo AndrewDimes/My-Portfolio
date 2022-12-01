@@ -13,5 +13,4 @@ This is my personal portfolio I use to show off my work built using vanilla HTML
 
 ### Future Features
 
-- Add a contact form.
 - Optimize for faster loading times.
