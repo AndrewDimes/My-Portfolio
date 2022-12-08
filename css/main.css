@@ -419,6 +419,9 @@ input[type=submit]:hover {
     .scroll {
         display: none;
     }
+    .hide {
+        display: none;
+    }
     .main {
         margin-top: 0%;
         background-image: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif");
