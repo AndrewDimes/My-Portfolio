@@ -18,6 +18,9 @@ html, body {
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
+.skills {
+    width: 5%;
+}
 
 .container {
     margin-left: 10%;
