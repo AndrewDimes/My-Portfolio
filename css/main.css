@@ -459,4 +459,7 @@ input[type=submit]:hover {
     #gh {
         width: 50%;
     }
+    .skills {
+        width: 6%;
+    }
 }
